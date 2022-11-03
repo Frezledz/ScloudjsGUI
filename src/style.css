@@ -1,0 +1,22 @@
+.box{
+    display: flex;
+}
+ body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.loginbox{
+    display:block;
+}
+.monitor{
+    margin: 0px 50px;
+}
+.util.monitor{
+    display: block;
+}
+#container{
+    display: flex;
+}
+.copyright{
+    margin-top: 20px;
+    text-align: center;
+}

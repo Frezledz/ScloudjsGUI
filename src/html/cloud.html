@@ -3,8 +3,8 @@
     <div class="monitor">
         <div class ="table">
             <table border="2">
-                <tr><th>variable names</th><th>value</th></tr>
-                <tr><td>a</td><td>1</td></tr>
+                <tr class="title"><th>variable names</th><th>value</th></tr>
+
             </table>
         </div>
     </div>
@@ -14,17 +14,14 @@
             <p>Currently connecting to the project :<span></span></p>
             <p>Latest changes:<span></span></p>
         </div>
-        <div class="box" name="connecttoproject">
-            <p>connect to project:</p><input type="text" class="projectid"><input type="button" value="connect!">
+        <div class="box projectconnect">
+            <p>connect to project:</p><input type="text" class="projectid"><input type="button" value="connect!" class="projectbutton">
         </div>
-        <div class="box" name = "send">
+        <div class="box changeval">
             <p>change variable</p>
-            <select>
-                <option value="a">aaa</option>
-                <option value="b">bbb</option>
-                <option value="c">ccc</option>
+            <select class="choice">
             </select>
-            <p> to</p><input type="text"><input type="button" value="change!">
+            <p> to</p><input type="text" class="projectid"><input type="button" value="change!"class="button">
         </div> 
     </div>
     

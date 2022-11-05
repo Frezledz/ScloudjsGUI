@@ -8,6 +8,7 @@ const loginfunc = async()=>{
         const username = loginbox.getElementsByClassName("username")[0].value;
         info.username=username;
         const password = loginbox.getElementsByClassName("password")[0].value;
+        loginstatus.getElementsByClassName("status")[0].innerText = "logging in...";
         fetch("/login",{
             headers: {
               'Accept': 'application/json',

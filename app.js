@@ -6,7 +6,7 @@ app.use("/",express.static(__dirname+"/src"))
 app.use(express.json());
 
 app.listen(port,()=>{
-    console.log(`Application hosted on localhost:${port}`);
+    console.log(`Application launched.\nOpen your browser and access to localhost:${port}`);
 });
 
 let adata = {

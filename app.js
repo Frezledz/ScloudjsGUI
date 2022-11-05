@@ -61,4 +61,4 @@ app.post("/change",async(req,res)=>{
     const val = data.value;
     scloudjs.sendtocloud(name,val);
     res.send(val);
-})
+});

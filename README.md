@@ -29,7 +29,7 @@ localhostのポート番号 3000 と 3001が使用可能な状態であること
 ```
 git clone https://github.com/xxXFreezerXxx/newscloudjs.git
 ```
-or download zip
+or download zip  
 2. batファイルをデスクトップなど好きなところに作成する
 ```
 cd <scloudjs folder path>

@@ -13,6 +13,7 @@ or download zip
 2. Create bat file somewhere you like(like desktop)
 ```
 cd <scloudjs folder path>
+npm i
 npm start
 ```
 3. Run bat file and follow instruction tha command prompt is shown.

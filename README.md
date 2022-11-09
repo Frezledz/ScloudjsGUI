@@ -21,7 +21,8 @@ cd <scloudjs folder path>
 npm i
 ```
 
-4. Run bat file and follow instruction tha command prompt is shown.
+4. Run bat file and follow instruction tha command prompt is shown.  
+You don't need to do instruction 1-3 After the second time to run Scloudjs.
 
 ## JA description
 [ScloudJS](https://github.com/xxXFreezerXxx/newscloudjs)をブラウザ上で使用できるアプリケーションです。ただ、幾つかの機能を使うことができないため、それらの機能が必要な方はCUI版を使用することをお勧めします。
@@ -45,8 +46,8 @@ cd <scloudjs folder path>
 npm i
 ```
 
-3. Batファイルを実行し、コマンドプロンプトに表示された指示に従う
-
+4. Batファイルを実行し、コマンドプロンプトに表示された指示に従う
+二回目以降は1-3の手順を踏む必要はありません。
 
 ## Credits
 libraries:express,ws  
